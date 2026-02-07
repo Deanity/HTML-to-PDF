@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Surat Pemberhentian</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @page {
+        size: A4;
+        margin: 1cm 2cm;
+      }
+
+      body {
+        font-family: "Times New Roman", serif;
+        font-size: 12pt;
+        line-height: 1.5;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .judul {
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        /* font-size: 14px; */
+      }
+
+      p {
+        margin: 12px 0;
+      }
+
+      .identitas {
+        margin-bottom: 20px;
+      }
+
+      .identitas td:first-child {
+        width: 100px;
+      }
+
+      .paragraf {
+        text-align: left;
+        margin-top: 20px;
+      }
+
+      .tanggal {
+        margin-top: 40px;
+      }
+
+      .ttd {
+        width: 100%;
+        margin-top: 50px;
+        text-align: end;
+      }
+
+      .ttd {
+        width: 30%;
+        margin-top: 50px;
+        margin-left: auto; /* dorong ke kanan */
+      }
+
+      .kanan {
+        text-align: left; /* teks mulai dari kiri */
+      }
+
+      .spasi-ttd {
+        height: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 class="judul">SURAT PERMOHONAN BERHENTI</h3>
+
+    <p>
+      Kepada<br />
+      Yth. Bapak Kepala Sekolah<br />
+      SMK TI Bali Global Denpasar<br />
+      Di Tempat
+    </p>
+
+    <p>Dengan Hormat, yang bertanda tangan dibawah ini :</p>
+
+    <table class="identitas">
+      <tr>
+        <td>Nama</td>
+        <td>: Dendra De Tama</td>
+      </tr>
+      <tr>
+        <td>Alamat</td>
+        <td>: Jl. Raya Kedonganan No. 123, Denpasar</td>
+      </tr>
+      <tr>
+        <td>Telp</td>
+        <td>: 081234567890</td>
+      </tr>
+    </table>
+
+    <p>Dengan ini menerangkan bahwa :</p>
+
+    <table class="identitas">
+      <tr>
+        <td>Nama</td>
+        <td>: Dendra De Tama</td>
+      </tr>
+      <tr>
+        <td>Kelas</td>
+        <td>: XII RPL 2</td>
+      </tr>
+    </table>
+
+    <p class="paragraf">
+      Menyatakan bahwa mengundurkan diri dari sekolah SMK TI Bali Global
+      Denpasar dikarenakan
+      <strong>adalah pokoknya</strong>, akan menyelesaikan administrasi sekolah.
+      Demikian surat ini saya buat dengan sebenarnya tanpa ada paksaan apapun
+      dan agar Bapak/Ibu maklum adanya.
+    </p>
+
+    <!-- Tanda Tangan -->
+    <table class="ttd">
+      <tr>
+        <td>
+          <div class="kanan">
+            Denpasar, 07 Januari 2026<br />
+            Hormat Kami,
+          </div>
+          <div class="spasi-ttd"></div>
+          <b>(Dendra De Tama)</b>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
